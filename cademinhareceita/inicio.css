@@ -1,0 +1,154 @@
+/* cor da fonte da logo: #730e00 */
+
+@font-face {
+    font-family: caviarDreams;
+    src: url(CaviarDreams/CaviarDreams.ttf);
+}
+
+#menu{
+	font-family: caviarDreams;
+	display: table;
+	margin-bottom: 50px;
+}
+
+#logo{
+	width: 35%;
+	height: auto;
+	vertical-align: middle;
+}
+
+#tutorial{
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+#menu ul{
+	display: table-row;
+    list-style-type: none;
+    margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+#menu ul li{
+	display: table-cell;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#menu ul li a{
+    color: white;
+	font-size: 30px;
+    text-decoration: none;
+}
+
+body {
+	font-family: caviarDreams;
+	background-color: #ffffff;
+	background-image: url("fundos/fundo1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#titulo{
+	background-image: url("fundos/divbg.png");
+	background-repeat-x: repeat-x;
+	background-repeat-y: repeat-y;
+	padding: 10px;
+	overflow: auto;
+}
+
+#titulo h2{
+	font-family: caviarDreams;
+	text-align: center;
+}
+
+#escolha{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#escolha ul{
+	overflow: hidden;	
+	font-size: 20px;
+    text-decoration: none;
+}
+
+#escolha ul li{
+	font-size: 25px;
+	display: inline;
+    list-style-type: none;
+	padding: 25px 100px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+.coluna{
+	float: left;
+	font-size: 18px;
+}
+
+#alfabetica .coluna{
+	padding: 40px;
+}
+
+#categoria .coluna{
+	padding: 60px;
+}
+
+#enviar{
+	text-align: center;
+}
+
+#titulo_categoria{
+	font-weight: bold;
+}
+#enviar{
+	position: relative;
+	float: right;
+	height: 100%;
+	width: 100%;
+}
+
+input[type="button"]{
+	font-family: caviarDreams;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 100px;
+	border: 1px solid black;
+	background: none;
+	cursor: pointer;
+}
+
+#tela{
+	background-image: url("fundos/divbg.png");
+	position: absolute;
+	width: 99%;
+	height: auto;
+}
+
+#tela img{
+	padding: 20px;
+	width: 250px;
+	height: 250px;
+	border: 2px solid black;
+}
+
+#tela a{
+	padding: 20px;
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+}
+.receita{
+	background-image: url("fundos/divbg.png");
+	background-repeat-x: repeat-x;
+	background-repeat-y: repeat-y;
+}
+.result {
+	display: inline;
+	float: left;
+}
+.result a{
+	display: inline-block;
+}

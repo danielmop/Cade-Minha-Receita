@@ -1,0 +1,76 @@
+@font-face {
+    font-family: caviarDreams;
+    src: url(CaviarDreams/CaviarDreams.ttf);
+}
+
+#menu{
+	font-family: caviarDreams;
+	display: table;
+	margin-bottom: 50px;
+}
+
+#logo{
+	width: 35%;
+	height: auto;
+	vertical-align: middle;
+}
+
+#tutorial{
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+#menu ul{
+	display: table-row;
+    list-style-type: none;
+    margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+#menu ul li{
+	display: table-cell;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#menu ul li a{
+    color: black;
+	font-size: 30px;
+    text-decoration: none;
+}
+
+body {
+	font-family: caviarDreams;
+	background-color: #ffffff;
+	background-image: url("receitaback1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#conteudo{
+	background-image: url("fundos/divbg.png");
+	background-repeat-x: repeat-x;
+	background-repeat-y: repeat-y;
+	padding: 10px;
+	overflow: auto;
+}
+
+#conteudo h1{
+	text-align: center;
+	padding: 20px;
+}
+
+#imagem img{
+	padding: 10px;
+	width: 40%;
+	height: auto;
+	float: left;
+	border: 2px solid black;
+}
+
+#receita{
+	padding-left: 45%;
+	font-size: 20px;
+	text-align: justify;
+}

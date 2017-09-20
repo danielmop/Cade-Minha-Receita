@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cadê Minha Receita? - Início</title>
+		<meta name="author" content="Cadê Minha Receita?">
+		<meta name="keywords" content="receita, ingrediente, cozinha, pesquisa">
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="inicio.css">
+		
+		<script type="text/javascript" src="script/json.js"></script>
+        <script type="text/javascript" src="script/busca.js" ></script>
+		<script type="text/javascript" src="script/checkbox.js" ></script>
+		
+	</head>
+
+	<body>
+
+		<div id="menu">
+		
+			<ul >
+				<li><img id="logo" src="logos/logo5.png" alt="logo"></li>
+				<li><a class="active" href="index.html">Início</a></li>
+				<li><a href="contato.html">Contato</a></li>
+				<li><a href="sobre.html">Sobre</a></li>
+				<li><a href="tutorial.html"><img id="tutorial" src="tutorial.png" alt="tutorial"></a></li>
+			</ul>
+			
+		</div>
+		<div id="tela"></div>
+
+			<div id="apagar">
+				<div id="titulo">
+								
+					<h2>Como você quer escolher os ingredientes?</h2>
+											
+						<div id="escolha">
+							<ul>
+								<li onclick="alfabetica();">Por ordem alfabética</li>
+								<li onclick="categoria();">Por categoria</li>
+							</ul>
+													
+						</div>
+					<div id="alfabetica"></div>
+					<div id="categoria"></div>
+					<div id="enviar"></div>	
+				</div>
+
+			</div>	
+
+		
+	</body>
+</html>
